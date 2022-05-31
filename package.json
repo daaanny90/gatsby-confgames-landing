@@ -1,0 +1,33 @@
+{
+  "name": "gatsby-landing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "gatsby-landing",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "gatsby": "^4.15.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "source-map": "^0.8.0-beta.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.5",
+    "autoprefixer": "^10.4.7",
+    "gatsby-plugin-postcss": "^5.15.0",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24",
+    "typescript": "^4.7.2"
+  }
+}
